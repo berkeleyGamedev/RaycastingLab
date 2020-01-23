@@ -73,13 +73,11 @@ public class Attack : MonoBehaviour
     #endregion
 
     #region Attack Methods
-    private void ShootLaser()
-    {
+    private void ShootLaser() {
         DrawLaser(m_LaserPrefab, transform.position, -Vector2.right, p_LaserRange);
     }
 
-    private void ShootMegaLaser()
-    {
+    private void ShootMegaLaser() {
         DrawLaser(m_MegaLaserPrefab, transform.position, -Vector2.right, p_LaserRange);
     }
     #endregion
